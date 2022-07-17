@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment # Kubernetes resource kind we are creating
 metadata:
-  name: DeploymentSpring
+  name: spring-boot-k8s-deployment
 spec:
   selector:
     matchLabels:
