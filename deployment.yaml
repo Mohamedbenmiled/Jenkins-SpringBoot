@@ -12,7 +12,6 @@ spec:
       labels:
         app: spring-boot-k8s
     spec:
-          automountServiceAccountToken: true <-- this
       containers:
         - name: spring-boot-k8s
           image: mohamedbenmiled/devops-integration # Image that will be used to containers in the cluster
